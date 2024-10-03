@@ -15,16 +15,16 @@ namespace ConsoleApp16
                 var emailService = new Emailservice(
                     smtpServer: "smtp.gmail.com",
                     smtpPort: 587,
-                    smtpUsername: "dhomsesumit36@gmail.com", // Replace with your Gmail
-                    smtpPassword: "mpyh fvij wkpm vnax",
+                    smtpUsername: "example@gmail.com", // Replace with your Gmail
+                    smtpPassword: "mpyh abcd wkpm vnax",
                     EnableSS1: true// Use an App-specific password
                      // Enable SSL for secure connection
                 );
 
                 // Send an email
                 emailService.sendMail(
-                    from: "dhomsesumit36@gmail.com",      // Replace with your Gmail
-                    to: "pranavarote17@gmail.com",   // Replace with recipient's email
+                    from: "example@gmail.com",      // Replace with your Gmail
+                    to: "poonampande@gmail.com",   // Replace with recipient's email
                     subject: "Test Email Subject",
                     body: "This is a test email body."
                 );
